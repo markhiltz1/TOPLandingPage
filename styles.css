@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+    font-family: 'Arial';
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    background-color: #1F2937;
+    margin-bottom: auto;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+    padding: 16px;
+    min-width: 816px
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-weight: lighter;
+    font-size: 18px;
+    gap: 16px;
+    padding-left: 64px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.headercontent{
+    align-self: center;
+    gap: 16px;
+    display: flex;
+    flex-shrink: 0;
+    padding: 48px 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textandbutton {
+    max-width: 400px;
+    flex-shrink: 0;
+}
+
+header img {
+    display: flex;
+    max-width: 400px;
+    max-height: 225px; 
+    border-radius: 24px; 
+    align-self: center;  
+}
+
+header .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 24px 0px;
+}
+
+.toptext {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.boxtwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxtwo .title {
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    min-width: 872px;
+    text-wrap: nowrap;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+
+}
+
+.items {
+    gap: 24px;
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex-shrink: 0;
+    text-align: center;
+    gap: 8px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 16px;
+}
+
+
+
+.items img {
+    height: 200px;
+    width: 200px;
+    flex-shrink: 0;
+    border-radius: 10%;
+}
